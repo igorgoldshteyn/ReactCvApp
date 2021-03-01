@@ -1,11 +1,9 @@
 import React from "react";
 import NoteItem from "./NoteItem";
+import './css/NoteList.css';
 
 export default function NoteList({ notes }) {
-  return (
-      notes.map(note)
-    // <div>
-    //   {notes[0]}
-    // </div>
-  );
+  return notes.map((noteItem) => {
+    return <NoteItem key={noteItem.id} noteItem={noteItem} />;
+  });
 }
