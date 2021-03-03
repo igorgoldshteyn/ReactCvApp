@@ -1,6 +1,5 @@
 import React from "react";
 import NoteItem from "./NoteItem";
-import './css/NoteList.css';
 
 export default function NoteList({ notes }) {
   return notes.map((noteItem) => {
