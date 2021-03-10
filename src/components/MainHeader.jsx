@@ -4,7 +4,11 @@ import '../css/styles.css'
 export default function MainHeader(text) {
     return (
         <div className="mainHeader">
-            text
+            <button>
+
+            <Link to='LoginPage'>Sign in</Link>
+
+            </button>
 
 
 
