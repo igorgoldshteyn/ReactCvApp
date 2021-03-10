@@ -26,6 +26,8 @@ export default function NoteBook() {
     // function toggleNote()
     // function removeNote()
 
+
+
     function handleAddNote(e) {
         const text = noteNameRef.current.value;
         if (text === "") return;
