@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import {Link } from "react-router-dom";
-import NoteList from "../NoteList";
+import NoteList from "../components/NoteList";
 import { v4 as uuidv4 } from "uuid";
 import '../css/styles.css'
 import  MainHeader from '../components/MainHeader'

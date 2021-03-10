@@ -70,28 +70,40 @@ body {
     position: absolute;
     left: 900px;
 }
+
 .buttonBlock {
     position: relative;
     top: 10px;
     /* left: 180px; */
 }
-.buttonBlock button{
+
+.buttonBlock button {
     position: relative;
     left: 73px;
 }
 
-.mainHeader{
-width: 100%;
-height: 40px;
-background-color: rgb(190, 189, 228);
-position: relative;
-top: 0px;
+/* MAIN PAGE */
+
+.mainHeader {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(190, 189, 228);
+    position: relative;
+    top: 0px;
 }
 
-.mainPageBlock{
+.mainPageBlock {
     position: relative;
- width: 100%;
- height: 400px;
- background-color: rgb(118, 232, 240);
- color: black;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(118, 232, 240);
+    color: black;
+}
+
+.footerBlock {
+    background-color: green;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
 }

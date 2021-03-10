@@ -4,14 +4,15 @@ import '../css/styles.css'
 import '../components/MainHeader';
 import MainHeader from '../components/MainHeader';
 export default function LoginPage() {
-    // let login = document.getElementById('login').value
-    // let password = document.getElementById('Password').value
-    // function logIn() {
-    // if(login =='admin' && password == 'admin'){
-    // browserHistory.push('/NoteBook')
-    // }
+    let login = document.getElementById('login').value
+    let password = document.getElementById('Password').value
+    function logIn() {
+        if (login == 'admin' && password == 'admin') {
+            browserHistory.push('/NoteBook')
+        }
 
-    // }
+    }
+    logIn();
     return (
         <div className='loginPage'>
             <MainHeader />
